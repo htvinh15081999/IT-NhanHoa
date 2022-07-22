@@ -5,7 +5,7 @@
 
 Khái niệm chung: là mô hình tham chiếu kết nối các hệ thống mở hay còn gọi là mô hình 7 tầng osi. Là mô hình tiêu chuẩn đầu tiên cho truyền thông mạng. 
 
-![](Aspose.Words.4f1a6ab6-4c74-40d8-af38-0ae7106909ce.001.png)
+![image](https://user-images.githubusercontent.com/95491130/180393116-4494e794-882a-4eaf-b010-5f7c7db523ff.png)
 
 Osi mô tả chức năng theo dạng phân tầng. Mỗi tầng có 1 vai trò riêng, mỗi vai trò có 1 tập chức năng chuyên biệt. Mỗi tầng chỉ tương tác với tầng trên và tầng dưới. Tầng applycation tương tác với user. Tầng physical tương tác với đường truyền vật lý.
 
@@ -24,11 +24,9 @@ Osi mô tả chức năng theo dạng phân tầng. Mỗi tầng có 1 vai trò 
   điện từ), thu và phát tín hiệu.
 1. **Các chức năng trong từng tầng:**
 
-![](Aspose.Words.4f1a6ab6-4c74-40d8-af38-0ae7106909ce.002.png)
-
-![](Aspose.Words.4f1a6ab6-4c74-40d8-af38-0ae7106909ce.003.png)
-
-![](Aspose.Words.4f1a6ab6-4c74-40d8-af38-0ae7106909ce.004.png)
+![image](https://user-images.githubusercontent.com/95491130/180393255-b45da53e-6b36-43ce-90d3-298827d75969.png)
+![image](https://user-images.githubusercontent.com/95491130/180393273-f882f9d3-a40d-44e9-a84c-e0c606a5db9c.png)
+![image](https://user-images.githubusercontent.com/95491130/180393285-21c87c67-3d59-4130-8e17-3691dc076431.png)
 
 1. **Tác dụng của mô hình:** 
 - OSI cung cấp điểm tham chiếu để so sánh và hiểu về chức** năng của các thành phần trong hệ thống mạng
@@ -40,7 +38,8 @@ Osi mô tả chức năng theo dạng phân tầng. Mỗi tầng có 1 vai trò 
 1. **Khái niệm chung** 
 - TCP/IP(Transmission Control Protocol/ Internet Protocol): Giao thức điều khiển truyền nhận/ Giao thức liên mạng), là một bộ giao thức trao đổi thông tin được sử dụng để truyền tải và kết nối các thiết bị trong mạng Internet. TCP/IP được phát triển để mạng được tin cậy hơn cùng với khả năng phục hồi tự động.
 
-![](Aspose.Words.4f1a6ab6-4c74-40d8-af38-0ae7106909ce.005.png)
+![image](https://user-images.githubusercontent.com/95491130/180393308-3dfe3022-6a1d-4fb0-a68e-de191bc3a8c6.png)
+
 
 **2. Vai trò của các tầng trong mô hình:**
 
