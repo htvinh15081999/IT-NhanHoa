@@ -52,6 +52,9 @@
   - Name server cục bộ đảm nhiệm chính việc truy vấn.
   - Server nhận được truy vấn sẽ trả lời và gửi lại local name server địa chỉ của server tiếp theo trong chuỗi.
   - Trả lời” không biết nhưng anh có thể hỏi server này”.
+
+![image](https://user-images.githubusercontent.com/95491130/180396860-95b0a3a1-916b-4aa8-99ce-9bc30ec44834.png)
+
 - **DNS: cache và cập nhật các bản ghi**
   - Khi 1 name server “học” được 1 ánh xạ thông tin DNS có sẽ caches ánh xạ đó ( lưu vào bộ nhớ đệm tạm thời cache)
   - Mỗi mục ánh xạ được cache có 1 khoảng thời gian time out
