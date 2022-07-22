@@ -1,7 +1,7 @@
 ﻿1. **DNS (Domain Name System)**
 - **Khái niệm chung:** là hệ thống phân giải tên miền. DNS đc phát minh vào năm 1984 cho Internet, chỉ một hệ thống cho phép thiết lập tướng ứng giữa dchi IP và tên miền.
 
-![](Aspose.Words.2ee7102f-412f-4a75-824e-5e3667e792ff.001.png)
+![image](https://user-images.githubusercontent.com/95491130/180396433-5af8c7e5-29ee-454e-957d-d32c436182c5.png)
 
 - **Chức năng:** dịch tên miền sang địa chỉ IP gồm 4 nhóm số khác nhau. Ví dụ: *www.tenmien.com* thành 421.64.874.899
 - **Các dịch vụ của DNS:**
@@ -46,7 +46,7 @@
     - Đường đi của các bản tin DNS và tiến trình diễn ra theo trình tự như hình vẽ.
     - Các name server đảm nhận việc chuyển tiếp query và phản hồi.
 
-![](Aspose.Words.2ee7102f-412f-4a75-824e-5e3667e792ff.002.png)
+![image](https://user-images.githubusercontent.com/95491130/180396519-5f465be0-ccce-43b8-8c9d-a015c347fdaa.png)
 
 - Truy vấn kiểu tuần tự: 
   - Name server cục bộ đảm nhiệm chính việc truy vấn.
@@ -58,9 +58,9 @@
   - Các local name servers thường cache ánh xạ tên miền và địa chỉ của TLD server.
 - **Khuôn dang bản tin:**
 
-![](Aspose.Words.2ee7102f-412f-4a75-824e-5e3667e792ff.003.png)
+![image](https://user-images.githubusercontent.com/95491130/180396548-a15b41ca-f810-4a37-8e51-a0a802ab2a3e.png)
 
-![](Aspose.Words.2ee7102f-412f-4a75-824e-5e3667e792ff.004.png)
+![image](https://user-images.githubusercontent.com/95491130/180396562-ff97c3eb-370e-42d1-a28c-db1e2a58a8bf.png)
 
 
 
