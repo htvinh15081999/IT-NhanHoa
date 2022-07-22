@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/95491130/180406641-6a537aa7-975a-4ec8-8abf-0a7dc9efa900.png)
 
-2. cách thức làm việc của SSH: thông qua 3 bước đơn giản:
+2. giai đoạn làm việc của SSH: thông qua 3 bước đơn giản:
 
 - Định danh host - xác định định danh của hệ thống tham gia phiên làm việc SSH.
 
@@ -46,11 +46,17 @@ B3:máy chủ giải mã khóa phiên này bằng khóa riêng và nhận đư�
 
 - Việc chứng thực mật khẩu là một cách rất thông dụng để định danh người sử dụng, nhưng ngoài ra cũng có các cách khác: chứng thực RSA, sử dụng ssh-keygen và ssh-agent để chứng thực các cặp khoá.
 
-3. mục đích sử dụng:
+3. cách hoạt động của SSH:
+
+- Client phải bắt đầu kết nối SSH bằng cách tạo ra TCP handshake với server, đảm bảo có thể thiết lập kết nối symmetric, xác thực thông tin của server có khớp dữ liệu cũ không (thông thường được trong RSA key store file), và so sánh thông tin đăng nhập của user kết nối để xác thực đúng kết nối.
+
+- Có 2 giai đoạn để thiết lập kết nối: trước tiên cả 2 bên đồng ý chuẩn mã hóa để bảo vệ giao tiếp trong tương, thừ 2, user phải được xác thực. Nếu thông tin đăng nhập khớp, user có quyền truy cập.
+
+4 mục đích sử dụng:
 
 - Mục đích SSH được tạo ra là để thay thế cho trình giả lập Terminal, cơ chế đăng nhập không an toàn (Telnet, Rlogin). Giao thức SSH hỗ trợ tính năng đăng nhập, khởi chạy Terminal Session thông qua hệ thống điều khiển từ xa.
 
-4. các chức năng chính:
+5 các chức năng chính:
 
 Hỗ trợ truy cập từ xa vào những hệ thống, thiết bị ứng dụng giao thức SSH.
 
@@ -62,7 +68,7 @@ Quản lý an toàn và hiệu quả thành phần hạ tầng mạng.
 
 SSH có thể kết hợp với Terminal Session thay thế cho những chương trình Telnet có tính bảo mật thấp.
 
-5. so sánh SSH với Telnet.
+6 so sánh SSH với Telnet.
 
 - Telnet được biết đến như một trong những giao thức internet ra đời sớm nhất. Giao thức này có khả năng khởi tạo và duy trì trình giả lập Terminal thông qua một Host từ xa.
 
