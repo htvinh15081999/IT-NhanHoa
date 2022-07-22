@@ -12,17 +12,17 @@ Branch: nhánh trong git, tách thành các nhánh để code dễ hơn ( mỗi 
 
 Xem các cấu hình cơ bản của git:
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.001.png)
+![image](https://user-images.githubusercontent.com/95491130/180400486-e933b4f9-5160-4438-a2e1-dd0d43c03bf1.png)
 
 Thiết lập user name/ user email.
 
-` `![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.002.png)
+![image](https://user-images.githubusercontent.com/95491130/180400513-a8393af4-593b-4c0b-b56b-35592d6404d7.png)
 
 Các trạng thái cơ bản của git:
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.003.png)
+![image](https://user-images.githubusercontent.com/95491130/180400535-d497651e-d845-42b0-b01f-0c6041113810.png)
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.004.png)
+![image](https://user-images.githubusercontent.com/95491130/180400558-f72949a4-cffd-4317-9519-c97add6b8cf6.png)
 
 **Các lệnh cơ bản trong GIT:**
 
@@ -54,27 +54,27 @@ Git reset –hard HEAD~1: xóa commit cuối cùng k phục hồi lại đc
 
 Trỏ đến thư mục cần lviec
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.005.png)
+![image](https://user-images.githubusercontent.com/95491130/180400592-bd13f3c7-3fa6-4494-8e56-076d34da28dd.png)
 
 Khởi tạo và biên tập file( .html)
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.006.png)
+![image](https://user-images.githubusercontent.com/95491130/180400608-228769e8-a68b-4e00-a351-118530dd1ea4.png)
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.007.png)
+![image](https://user-images.githubusercontent.com/95491130/180400628-3cbe975a-8647-43d6-99a0-e8e37003363e.png)
 
 Khởi tạo repo:
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.008.png)
+![image](https://user-images.githubusercontent.com/95491130/180400650-c55a937f-b85a-492b-8130-160b4cdce474.png)
 
 Lưu chỉnh sửa vào repo
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.009.png)
+![image](https://user-images.githubusercontent.com/95491130/180400674-b9b3b6e2-1e63-4ca1-9004-5a804a8808fe.png)
 
 Kiểm tra commit trạng thái giữa dữ liệu của repo và dlieu đang làm việc
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.010.png)
+![image](https://user-images.githubusercontent.com/95491130/180400694-ab53c330-7670-44a0-9130-1289a614931f.png)
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.011.png)
+![image](https://user-images.githubusercontent.com/95491130/180400711-10fabc97-e54f-4981-8a55-f3aa76bbe06a.png)
 
 **Vòng đời các file trong git:**
 
@@ -88,7 +88,7 @@ Modified: có thay đổi
 
 Staged: trạng thái đánh dấu chuẩn bị được lưu vào database Git.
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.012.png)
+![image](https://user-images.githubusercontent.com/95491130/180400728-17be09b6-befd-45a1-9644-b2302880ed4a.png)
 
 **Giải thích:**
 
@@ -122,21 +122,21 @@ Thực hiện lệnh để tạo SSH Key.
 
 mở file id\_rsa.pub để lấy SSH key public
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.013.png)
+![image](https://user-images.githubusercontent.com/95491130/180400789-834386a6-5284-4cb3-a375-20c50a827f88.png)
 
 Coopy key này vào điển vào 
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.014.png)
+![image](https://user-images.githubusercontent.com/95491130/180400804-b5f23493-a20e-4d11-9146-32b2da352099.png)
 
 Cấu hình ssh key private
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.015.png)
+![image](https://user-images.githubusercontent.com/95491130/180400831-bfff1a7e-9eea-4d73-8b05-d180912a664f.png)
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.016.png)
+![image](https://user-images.githubusercontent.com/95491130/180400851-cb9ea32e-026b-4372-870c-eec630b3debe.png)
 
 Tạo remote trên github:lựa chọn các mục cho phù hợp với mục đích sử dụng
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.017.png)
+![image](https://user-images.githubusercontent.com/95491130/180400931-856df1fe-9da6-4b5e-8c32-1e6ef40007d4.png)
 
 Add remote vừa tạo trên gibhub vào project.
 
@@ -146,27 +146,27 @@ Git remote add origin <git@github.com:htvinh15081999/Intern.git>
 
 Kiểm tra các remote đã add
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.018.png)
+![image](https://user-images.githubusercontent.com/95491130/180400952-8687b558-25fb-4ecf-b1c6-2d3371028ead.png)
 
 Đẩy giữ liệu lên github
 
 Cú pháp lệnh: git push <tên remote> <tên nhánh>
 
-` `![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.019.png)
+![image](https://user-images.githubusercontent.com/95491130/180400965-e910f302-1a5a-4d60-89a4-546390bdd430.png)
 
 Kết quả sau khi push:
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.020.png)
+![image](https://user-images.githubusercontent.com/95491130/180400980-85e15cd2-b6a2-41ee-8d0c-ae0a23c57d4f.png)
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.021.png)
+![image](https://user-images.githubusercontent.com/95491130/180400989-4b12af1b-4031-40c8-b584-4f8b22e558cd.png)
 
 Lấy project từ github về máy: git clone <URL SSH>
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.022.png)
+![image](https://user-images.githubusercontent.com/95491130/180401012-ad9c9faa-a35b-4c0f-8850-72f7bf21d0be.png)
 
 Ban đầu chỉ hiển thị nhánh master trong khi trên github lại có cả master và beta. 
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.023.png)
+![image](https://user-images.githubusercontent.com/95491130/180401028-a81538a0-2e61-4023-bb3a-94fcfebf95f0.png)
 
 Cập nhật code từ github về máy local bằng lệnh git pull
 
@@ -174,25 +174,25 @@ Tag trong git để dấu dấu có điểm trong quá trình commit.
 
 Cú pháp: git tag –a “<tên tag>” –m”<thông điêp của tag>” <id của commit>
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.024.png)
+![image](https://user-images.githubusercontent.com/95491130/180401054-0992bde7-a177-43db-b3f7-8577d6b4f81a.png)
 
 Kiểm tra các tag:
 
 Xem thông tin chi tiết của tag: git show <tên tag>
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.025.png)
+![image](https://user-images.githubusercontent.com/95491130/180401139-bd782d9d-43ed-4788-ba4a-d95123504c64.png)
 
 Xóa tag : git tag –d <tên tag cần xóa>.
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.026.png)
+![image](https://user-images.githubusercontent.com/95491130/180401124-552c7a4d-8584-44a4-8fb5-170818cb55d9.png)
 
 Push tag lên remote
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.027.png)
+![image](https://user-images.githubusercontent.com/95491130/180401161-953f3b87-0461-41bc-986f-1a5c40d669f9.png)
 
 Xóa tag trên remote: git push –delete <tên remote> <tên tag>
 
-![](Aspose.Words.d09d400e-eeb0-42fa-8885-832fbee6e983.028.png)
+![image](https://user-images.githubusercontent.com/95491130/180401180-109c3cea-854d-48a7-a699-c9b8dcaf3b15.png)
 
 
 
