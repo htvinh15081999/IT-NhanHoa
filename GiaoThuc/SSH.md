@@ -70,7 +70,7 @@ SSH có thể kết hợp với Terminal Session thay thế cho những chương
 
 ![image](https://user-images.githubusercontent.com/95491130/180413150-4cd46fd8-fcec-4210-8760-0d75f9ee51a7.png)
 
-6. 
+
 
 
 
