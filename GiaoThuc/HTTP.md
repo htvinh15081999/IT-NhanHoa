@@ -4,7 +4,7 @@
   - Client: Trình duyệt web gửi yêu cầu, nhận dữ liệu, và hiển thị đối tượng của trang web
   - Server: gửi nội dung dữ liệu của đối tượng tương ứng với yêu cầu
 
-![](Aspose.Words.79f05b44-344f-4cb1-8ed1-b7b2c3766bc7.001.png)
+![image](https://user-images.githubusercontent.com/95491130/180398537-51b52ce5-38c7-4435-91c1-465ba7a5bc54.png)
 
 - **Các thức hoat động:** Client ( browser) khi cần tài 1 trang sẽ mở kết nối TCP đến server ( cổng 80). Server chấp nhận kết nối đến client. Client và server sẽ trao đổi các bản tin theo quy định của giao thức HTTP. Với mỗi đối tượng cần tải về Client 1 bản tin yêu cầu. Server gửi bản tin phản hồi và đối tượng được yêu cầu. Sau đó đóng kết nối TCP.
 - **HTTP:**  là giao thức không lưu trạng thái. Server không lưu lại thông tin về các yêu cầu trước đó của client.
@@ -15,9 +15,8 @@
 |Mỗi kết nối tcp giữa client và server chỉ sử dụng để vận chuyển nhiều nhất 1 đối tượng|<p>Nhiều đối tượng có thể được tải về thông qua 1 kết nối duy nhất</p><p></p>|
 |1 yêu cầu và 1 phản hồi/ 1 kết nối|Nhiều cặp yêu cầu/ phản hồi/1 kết nối TCP|
 
-![](Aspose.Words.79f05b44-344f-4cb1-8ed1-b7b2c3766bc7.002.png)   ![](Aspose.Words.79f05b44-344f-4cb1-8ed1-b7b2c3766bc7.003.png)
+![image](https://user-images.githubusercontent.com/95491130/180398622-171d269c-667a-40d7-9d14-2710dcec4271.png)  ![image](https://user-images.githubusercontent.com/95491130/180398641-d9126149-04e3-4fcf-a91a-39e8b519a546.png)
 
-Non HTTP						Pre HTTP
 
 - **So sánh giữa non và pre HTTP:**
 
@@ -28,11 +27,11 @@ Non HTTP						Pre HTTP
 
 - **Cú pháp bản tin request: dạng text, chia thành dòng và có thể đọc được.**
 
-![](Aspose.Words.79f05b44-344f-4cb1-8ed1-b7b2c3766bc7.004.png)
+![image](https://user-images.githubusercontent.com/95491130/180398757-881127cf-780d-4fe9-9e1c-b03f5cebe45c.png)
 
 - **Cú pháp tổng quát:** 
 
-![](Aspose.Words.79f05b44-344f-4cb1-8ed1-b7b2c3766bc7.005.png)
+![image](https://user-images.githubusercontent.com/95491130/180398773-5650eb01-5753-4692-b2ab-e958de1fb1c9.png)
 
 - **Các kiểu lệnh:**
 
@@ -44,7 +43,7 @@ Non HTTP						Pre HTTP
 
 - **Bản tin phản hồi:**
 
-![](Aspose.Words.79f05b44-344f-4cb1-8ed1-b7b2c3766bc7.006.png)
+![image](https://user-images.githubusercontent.com/95491130/180398808-72311888-8a10-4c40-8403-9ee594f0799e.png)
 
 - **Các mã trạng thái thường gặp trong response.**
   - 200 OK : yêu cầu đáp ứng thành công, đối tượng được yêu cầu lưu trong phần thân của bản tin
