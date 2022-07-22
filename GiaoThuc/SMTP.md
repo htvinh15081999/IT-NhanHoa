@@ -5,7 +5,7 @@
     qua các hệ thống Mail Server trung gian cho đến Mail Server của địa chỉ người nhận. Tuy** nhiên, đồ án giới hạn việc truyền email chỉ diễn ra giữa User Agent (Client) và Mail Server** (không bao gồm chuyển tiếp)
 - **Mô hình hoạt động:** 
 
-![](Aspose.Words.459ca001-0f65-497d-9433-d1d57268fa5f.001.png)
+![image](https://user-images.githubusercontent.com/95491130/180399116-f6974c16-b0eb-4401-a672-87fe60f6c92a.png)
 
 - **Giao thức SMTP được thiết kế theo mô hình truyền thông như sau**
   - ` `Sender-SMTP là chương trình Client. Khi người dùng user có yêu cầu gửi email,** Client sẽ thiết lập 1 kết nối TCP đến Receiver-SMTP (chính là chương trình Server)
@@ -37,40 +37,78 @@
 \- **MAIL procedure: thủ tục chức năng truyền email**
 Thủ tục này sẽ giúp Client hoàn thành chức năng chuyển giao 1 email đến Server cho 1 hoặc nhiều người nhận.
 Có 3 bước trong thủ tục truyền email.
+
 **- Bắt đầu với lệnh MAIL từ Client**
 MAIL (SP) FROM:<địa chỉ email người gửi> (CRLF)
+
 (SP) là kí tự trống, CRLF là 2 kí tự \r \n
+
 Lệnh này sẽ báo cho Server biết một giao dịch chuyển email mới bắt đầu để Server thiết lập lại các bảng trạng thái phiên, các vùng đệm chứa dữ liệu, các danh sách địa chỉ email người gửi và người nhận mà Server quản lý trong phiên này. Nếu chấp nhận lệnh này, Server sẽ gửi trả lời với mã 250
+
 \- Tiếp theo Client gửi 1 hoặc nhiều lệnh RCPT
+
 `   `**RCPT (SP) TO:<địa chỉ email người nhận> (CRLF)**
 
-Lệnh này sẽ báo cho Server biết một địa chỉ email của 1 người nhận đối với giao dịch email này. Nếu chấp nhận, Server sẽ gửi trả lời với mã 250. Nếu không biết (hoặc quản lý) địa chỉ người nhận, Server sẽ gửi trả lời với mã 550 (báo cho Client có lỗi xảy ra với lệnh
-RCPT). Lệnh RCPT có thể lặp lại nhiều lần cho nhiều người nhận email.
+Lệnh này sẽ báo cho Server biết một địa chỉ email của 1 người nhận đối với giao dịch email này.
+Nếu chấp nhận, Server sẽ gửi trả lời với mã 250. Nếu không biết (hoặc quản lý) địa chỉ người nhận, Server sẽ gửi trả lời với mã 550 (báo cho Client có lỗi xảy ra với lệnh
+RCPT). 
+Lệnh RCPT có thể lặp lại nhiều lần cho nhiều người nhận email.
+
 **Cuối cùng là lệnh DATA để thực hiện truyền nội dung mail từ Client đến Server.**
+
 DATA (CRLF)
-Nếu chấp nhận lệnh, Server sẽ trả lời với mã 354 và sau đó coi những dữ liệu nhận được sau đó từ Client là nội dung của email. Trong quá trình nhận, Server sẽ lưu dữ liệu email vào file trong thư mục hộp thư của người nhận. Khi hoàn thành nhận nội dung email, Server sẽ trả lời với mã 250.
-Do dữ liệu email được gửi trên cùng 1 kênh truyền TCP với lệnh và phản hồi, Client phải
-chỉ báo cho Server biết kết thúc của nội dung email bằng 1 chuỗi kí tự đặc biệt là *(CRLF).(CRLF)*
+
+Nếu chấp nhận lệnh, Server sẽ trả lời với mã 354 và sau đó coi những dữ liệu nhận được sau đó từ Client là nội dung của email.
+
+Trong quá trình nhận, Server sẽ lưu dữ liệu email vào file trong thư mục hộp thư của người nhận. Khi hoàn thành nhận nội dung email, Server sẽ trả lời với mã 250.
+
+Do dữ liệu email được gửi trên cùng 1 kênh truyền TCP với lệnh và phản hồi, Client phải chỉ báo cho Server biết kết thúc của nội dung email bằng 1 chuỗi kí tự đặc biệt là *(CRLF).(CRLF)*
+
 Nói cách khác, dấu hiệu kết thúc email là một dòng văn bản chỉ chứa 1 kí tự là dấu .
-Khi nhận được chỉ báo kết thúc email, nếu chấp nhận, Server sẽ hoàn thành việc lưu email, sau đó gửi phản hồi mã 250. Lệnh DATA thường chỉ lỗi nếu quá trình giao dịch email không đầy đủ các bước mô tả ở đây (ví dụ như Client không gửi lệnh MAIL hoặc RCPT) hoặc khi Server gặp lỗi trong việc lưu email vào hộp thư của người nhận.
-Sau đây là minh họa việc sử dụng lệnh và phản hồi trong một giao dịch email. Trong đó C là Client, S là Server. Server quản lý trực tiếp các địa chỉ email của tên miền nuce.edu.vn (không quản lý gmail.com)
+
+Khi nhận được chỉ báo kết thúc email, nếu chấp nhận, Server sẽ hoàn thành việc lưu email, sau đó gửi phản hồi mã 250. 
+
+Lệnh DATA thường chỉ lỗi nếu quá trình giao dịch email không đầy đủ các bước mô tả ở đây (ví dụ như Client không gửi lệnh MAIL hoặc RCPT) hoặc khi Server gặp lỗi trong việc lưu email vào hộp thư của người nhận.
+
+Sau đây là minh họa việc sử dụng lệnh và phản hồi trong một giao dịch email. Trong đó C là Client, S là Server. 
+
+Server quản lý trực tiếp các địa chỉ email của tên miền nuce.edu.vn (không quản lý gmail.com)
+
 C: MAIL FROM:<tuan@nuce.edu.vn>
+
 S: 250 OK
+
 C: RCPT TO:<hung@nuce.edu.vn>
+
 S: 250 OK
+
 C: RCPT TO:<thanh@gmail.com>
+
 S: 550 No such user here
+
 C: RCPT TO:<toan@nuce.edu.vn>
+
 S: 250 OK
+
 C: DATA
+
 S: 354 Start mail input; end with CRLF.CRLF
+
 C: Blah blah blah...
+
 C: Blur Blur Blur...
+
 C: .
+
 S: 250 OK
+
 3.1 ) CLOSE procedure: chức năng kết thúc phiên và đóng kết nối
+
 Để đóng kết nối và kết thúc 1 phiên giao dịch email, Client chủ động gửi lệnh QUIT cho Server.
+
 C: QUIT
+
 S: 221 Bye. Server closing transmission channel
+
 Sau đó Server đóng kết nối TCP.
 
