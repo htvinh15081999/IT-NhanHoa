@@ -93,6 +93,7 @@ cấu trúc của địa chỉ multicast:
 
 ![image](https://user-images.githubusercontent.com/95491130/180597088-f5400393-5216-4f54-83b8-437b06494994.png)
 
+![image](https://user-images.githubusercontent.com/95491130/180597640-5348e1c4-6962-43ab-a4fb-ffa098e11ebe.png)
 
 
 link : https://www.academia.edu/31825471/T%C3%8CM_HI%E1%BB%82U_V%E1%BB%80_%C4%90%E1%BB%8AA_CH%E1%BB%88_IPv6
