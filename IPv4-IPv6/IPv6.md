@@ -95,7 +95,7 @@ cấu trúc của địa chỉ multicast:
 
 
 
-
+link : https://www.academia.edu/31825471/T%C3%8CM_HI%E1%BB%82U_V%E1%BB%80_%C4%90%E1%BB%8AA_CH%E1%BB%88_IPv6
 
 
 
