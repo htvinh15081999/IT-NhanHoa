@@ -32,6 +32,10 @@ Mục lục:
 
 2. cấu trúc địa chỉ IPv4:
 
+- tổng số dchi mà IPv4 có thể cung cấp là hơn 4 tỷ địa chỉ.
+
+- địa chỉ IPv4 có thể sử dụng ở lớp A,B,C.
+
 - địa chỉ IPv4 gồm 32 bit gồm phần network và phần host.
 
 phần network: xác định máy đó thuộc đường mạng nào.
