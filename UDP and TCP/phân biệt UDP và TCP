@@ -1,1 +1,22 @@
+I. giao thứcTCP
+
+1. khái niệm : 
+
+- TCP là viết tắt của cụm từ Transmission Control Protocol, tức là giao thức điều khiển truyền nhận. Giao thức này đóng vai trò kiểm tra và đảm bảo sự chuyển giao thông tin từ nơi nguồn tới nơi nhận một cách an toàn và đúng thứ tự.Hơn nữa, giao thức TCP đảm bảo không xảy ra sự chậm trễ trong đường truyền làm ảnh hưởng đến chất lượng gói tin. Bên cạnh đó, TCP là giao thức hướng kết nối, nghĩa là phải thiết lập kết nối trước khi truyền dữ liệu.
+
+2. cách hoạt động của tcp
+
+- gồm 3 bước 
+
+Thiết lập kết nối
+
+truyền dữ liệu
+
+kêt thúc kết nối
+
+2.1 thiết lập kết nối:
+
+- Client gửi một gói tin có cờ SYN cho server để yêu cầu mở cổng dịch vụ. Sau khi nhận được gói tin, server gửi lại gói tin có cờ SYN-ACK để xác nhận. Sau khi kết nối đã được thiết lập, client gửi tới server gói tin ACK để đáp ứng nhu cầu của server.
+
+
 
