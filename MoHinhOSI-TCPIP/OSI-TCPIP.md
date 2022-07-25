@@ -3,7 +3,7 @@
 1. **Mô hình tham chiểu OSI**
 1. **Các khái niệm cơ bản:**
 
-Khái niệm chung: là mô hình tham chiếu kết nối các hệ thống mở hay còn gọi là mô hình 7 tầng osi. Là mô hình tiêu chuẩn đầu tiên cho truyền thông mạng. 
+Khái niệm chung: Mô hình OSI (do tổ chức ISO đưa ra) để đề xuất kiến trúc mạng chuẩn mang tính tham chiếu cho các hệ thống mạng
 
 ![image](https://user-images.githubusercontent.com/95491130/180395447-e8d22b82-6448-462b-96ae-3274d068799d.png)
 
