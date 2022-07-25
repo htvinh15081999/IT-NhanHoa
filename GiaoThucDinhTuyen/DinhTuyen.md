@@ -3,6 +3,14 @@ tìm hiểu về định tuyến.
 mục lục
 
 
+1. khái niệm về định tuyến
+2. phân loại định tuyến
+3. định tuyến tĩnh
+4. định tuyến động
+5. 2 tham số dùng trong định tuyến Metric và AD
+6. default route
+7. so sanh giữa định tuyến động và định tuyến tĩnh
+
 
 
 
