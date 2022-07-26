@@ -3,6 +3,13 @@ tìm hiểu về ảo hóa
 mục lục
 
 
+1. khái niệm về ảo hóa.
+2. Lợi thế của việc sử dụng ảo hóa.
+3. thành phần chính của hệ thống ảo hóa.
+4. mục đích của ảo hóa.
+5. các loại ảo hóa.
+6. Hypervisor
+
 
 
 
