@@ -72,6 +72,10 @@ b9: chọn power khơi động và tiến hành cài đặt
  
  ![image](https://user-images.githubusercontent.com/95491130/180915066-54f2712c-9271-4510-bba2-ea47d008508c.png)
 
+sử dụng snapshots luu lại trạng thái máy vừa setup để có lỗi thì backup lại đc
+
+![image](https://user-images.githubusercontent.com/95491130/180915504-22f989c8-a160-4c95-8849-9e6727b43752.png)
+
 
 
 
