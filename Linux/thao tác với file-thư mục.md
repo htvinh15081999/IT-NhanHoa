@@ -1,0 +1,59 @@
+1. tạo thư mục
+
+        lệnh : mkdir [tên thư mục]
+        
+![image](https://user-images.githubusercontent.com/95491130/181156669-da0316de-e50b-46b8-b6d3-7bd191bf4782.png)
+
+2. tạo file 
+
+        lệnh: touch [tên file]
+ 
+ ![image](https://user-images.githubusercontent.com/95491130/181156781-53a5aa5f-8be9-4de1-b6c6-dd5336d5b792.png)
+
+3. xóa file
+
+        lệnh: rm [tên file]
+
+![image](https://user-images.githubusercontent.com/95491130/181157010-593cdbeb-24c7-4d38-8876-475a30ba206b.png)
+
+4. xóa tuần tự 
+
+      lệnh: rm -r [tên thư mục]
+
+![image](https://user-images.githubusercontent.com/95491130/181157612-2dc2e514-9bd0-497d-91d7-d515bf981dab.png)
+
+5. xóa nhanh:
+
+      lệnh: rm -rf [tên thư mục]
+
+![image](https://user-images.githubusercontent.com/95491130/181158028-9f134004-3abc-4570-a47f-5dbb893d2592.png)
+
+6. coppy file 
+
+      lệnh:  cp [nguồn]  [/ đích]
+
+![image](https://user-images.githubusercontent.com/95491130/181159352-833dbd5d-db54-4c5f-bacb-160510a8566c.png)
+
+7. coppy thư mục:
+
+      lệnh: cp -rv [nguồn] [/đích]
+      
+ -v: để hiển thị quá trình cp
+ 
+ ![image](https://user-images.githubusercontent.com/95491130/181159767-b95cdee2-fb4e-4870-8475-0bb5c8c84684.png)
+
+8. đổi tên file/thư mục
+
+      lệnh: mv [ten file/thư mục cũ] [tên file/thư mục mới]
+
+![image](https://user-images.githubusercontent.com/95491130/181159977-30f5b323-c48a-4e7e-8163-0609c786b206.png)
+
+![image](https://user-images.githubusercontent.com/95491130/181160224-88779882-21e6-44cd-88ac-47a0cf0afccb.png)
+
+9. di chuyển thư mục/file
+
+      lệnh: mv [tên file/thu muc] [/đích cần đến ]
+      
+![image](https://user-images.githubusercontent.com/95491130/181160573-dbacff01-0aec-4e8f-a310-a868df2d9f4c.png)
+
+
