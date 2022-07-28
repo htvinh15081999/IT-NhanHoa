@@ -1,37 +1,43 @@
-truy cập link http://mirrors.nhanhoa.com/centos/7.9.2009/isos/x86_64/ tải file iso về bản minimall cho đơn giản
+cài đặt CentOS7
 
-B1: Khởi tạo máy ảo trên vnware
+B1: chuẩn bị
 
-![image](https://user-images.githubusercontent.com/95491130/180975394-be958ee6-7fea-4958-8fe4-528f8947a5a1.png)
+- tải phần mềm vmware workstation phiên bản mới nhất tại https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html
 
-- chọn ![image](https://user-images.githubusercontent.com/95491130/180976005-9299ffff-3826-4883-ad89-7e4c4e2b5a17.png) add file iso tải ở trên vào
+- tài file .iso của CentOS 7 tại https://www.centos.org/download/
 
-![image](https://user-images.githubusercontent.com/95491130/180975669-2a33bafa-2005-453a-9d2c-6c6e12d9aaa3.png)
+b2: tạo máy ảo nên vmware
 
-- chon ![image](https://user-images.githubusercontent.com/95491130/180976084-8e1a1276-96e7-4740-8ec2-13d63c9e4520.png) để tiến hành cài đặt máy ảo CentOS7
+![image](https://user-images.githubusercontent.com/95491130/181206483-20740242-7681-4db9-a789-77976e5f28e1.png)
 
-B2: chọn ngôn ngữ
+B3: cài đặt 
 
-![image](https://user-images.githubusercontent.com/95491130/180976477-3f459990-e90e-4fb5-972b-ddf38a1e6f95.png)
+- ngôn ngữ
 
-- chọn ngày giờ
+![image](https://user-images.githubusercontent.com/95491130/181142942-b27b50bd-f8e6-4492-a715-a8e15abc3708.png)
 
-![image](https://user-images.githubusercontent.com/95491130/180976853-f5a75116-788c-4220-9b2f-7c724f848b98.png)
+- ngày giờ
 
-- Để mặc định phần software selection
+![image](https://user-images.githubusercontent.com/95491130/181143052-8e896760-9682-4716-8267-b011ebf3752d.png)
 
-- phân vùng dung lượng ổ cứng 
+- software 
 
-![image](https://user-images.githubusercontent.com/95491130/180978003-1fb7459f-e69b-4be5-8748-dc2226f72ce6.png)
+![image](https://user-images.githubusercontent.com/95491130/181207571-3e0b1ac1-ffc6-4683-b83e-2fb135c5db99.png)
 
-- cấu hình mạng 
+- ổ cứng
 
-![image](https://user-images.githubusercontent.com/95491130/180978117-904d9a2a-f03c-45ca-8649-64f393b33ba0.png)
+![image](https://user-images.githubusercontent.com/95491130/181207774-f4f567e2-e667-4c80-acd2-0ba27a708c72.png)
 
-- sau khi cấu hình xong thì cài đặt 
+- card mạng
 
-![image](https://user-images.githubusercontent.com/95491130/180978328-b1966e83-1879-4d0f-80c7-955815a5e712.png)
+![image](https://user-images.githubusercontent.com/95491130/181208646-786cac9f-ecf1-42f6-a974-3b6df64edb11.png)
 
-- đăng nhập tài khoản root.
+- đăt mật khẩu cho root.
 
-![image](https://user-images.githubusercontent.com/95491130/180981752-d33b8fa2-d659-41bf-bf35-905acfca8188.png)
+![image](https://user-images.githubusercontent.com/95491130/181209354-428477f4-20e7-4725-9cc4-4209618598d3.png)
+
+- sau khi cài đặt thành công
+
+![image](https://user-images.githubusercontent.com/95491130/181214225-2173942e-111d-4ef4-888d-06233e07de0a.png)
+
+
