@@ -1,3 +1,11 @@
+Mục lục
+
+1. gán địa chỉ IP tĩnh
+2. thêm người dùng cục bộ.
+3. đặt quyền admin cho người dung:
+4. Thay đổi username admin
+5. Thay đổi tên máy tính
+-----------------------------------------------------------------------
 1. gán địa chỉ IP tĩnh
 
 b1: Chạy Server Manager và chọn Local Server trên bảng điều khiển bên trái, rồi nhấp vào phần Ethernet trên bảng điều khiển bên phải
@@ -41,6 +49,30 @@ B1: Nếu muốn đặt quyền admin cho người dùng mới, ta nhấp chuộ
 Đảm bảo rằng nhóm Administrators được thêm vào danh sách và nhấp vào nút OK để hoàn tất cài đặt
 
 ![image](https://user-images.githubusercontent.com/95491130/181423659-65b55731-d738-4c22-9b5c-53d8fe75e005.png)
+
+4. Thay đổi username admin
+
+Bước 1: Chạy Server Manager và mở Tools -> Computer Management
+
+Bước 2: Mở Local Users and Group -> Users ở bên trái và nhấp chuột phải vào Administrator, rồi chọn Rename ở bên phải. Sau đó thay đổi bất kỳ tên nào mà ta muốn
+
+![image](https://user-images.githubusercontent.com/95491130/181437245-e99596ff-7529-477e-bb16-f64a2ba9c96e.png)
+
+5. Thay đổi tên máy tính
+
+- Tên máy tính được gán tự động theo mặc định, ta cần thay đổi nó
+
+- Chạy Server Manager và chọn Local Server ở bên trái, rồi kích vào phần Computer Name ở bên phải
+
+![image](https://user-images.githubusercontent.com/95491130/181437504-9b244e8f-c08c-4e77-9c2f-aff0de77b537.png)
+
+- Tại tab Computer Name click vào nút Change và nhập tên mà ta muốn thay đổi vào trường Computer Name
+
+![image](https://user-images.githubusercontent.com/95491130/181437698-ece0024e-2300-487a-8b3f-209a2d7cfc07.png)
+
+- khởi động lại máy để cập nhật thay đổi.
+
+![image](https://user-images.githubusercontent.com/95491130/181437971-79cee3d2-c4f8-41b8-bf7e-3cdf6630aadc.png)
 
 
 
