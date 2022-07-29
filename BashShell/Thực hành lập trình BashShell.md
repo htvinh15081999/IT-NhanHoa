@@ -88,17 +88,83 @@ chạy tệp với lệnh bash
 
 ![image](https://user-images.githubusercontent.com/95491130/181716682-2300cad8-01e4-461d-8a12-aa85bc1398f8.png)
 
-- lap2: sử dụng vòng lặp while: Tạo một tệp có tên while.sh và thêm tập lệnh sau bằng vòng lặp while. Ở đây, vòng lặp while sẽ in tất cả các số từ 1 đến 5.
+- lap2: sử dụng vòng lặp while: Tạo một tệp có tên while.sh và thêm tập lệnh sau bằng vòng lặp while. Ở đây, vòng lặp while sẽ in tất cả chẵn từ 0 đến 10
 
 #vi while.sh
 
-![image](https://user-images.githubusercontent.com/95491130/181717856-3907b883-30a2-49dc-8a8c-152d71d69fd9.png)
+![image](https://user-images.githubusercontent.com/95491130/181718651-c24b6234-180d-4d83-bf3e-5140b7cbc37a.png)
 
 chạy lệnh bash
 
-![image](https://user-images.githubusercontent.com/95491130/181717874-14a6315c-91ac-4767-a0eb-a4882e8e9e5d.png)
+![image](https://user-images.githubusercontent.com/95491130/181718710-f40794a3-b6b5-45fe-b3ca-6638009ba19e.png)
 
-- lap3: 
+- lap3: sử dụng vòng lặp until.sh: Tạo một tệp có tên until.sh và thêm tập lệnh sau bằng vòng lặp until. Ở đây, vòng lặp until sẽ in tất cả các số lẻ từ 1 đến 15.
+
+#vi until.sh
+
+![image](https://user-images.githubusercontent.com/95491130/181718966-49e50649-bfd0-44c4-9eee-ec04b3acb0c0.png)
+
+chạy lệnh bash;
+
+![image](https://user-images.githubusercontent.com/95491130/181719078-599eee2c-bc5e-46dd-8e33-384810a7790f.png)
+
+4. cấu trúc cấu case.
+
+#vi case.sh
+
+![image](https://user-images.githubusercontent.com/95491130/181721562-2907f4f9-64a4-451d-b079-3298c228e5ca.png)
+
+chạy lệnh bash.
+
+![image](https://user-images.githubusercontent.com/95491130/181721671-0087574f-e208-4b5f-b80d-2b8bd5d6b131.png)
+
+5. cấu trúc select: lựa chọn sở thích
+
+#vi select.sh
+
+![image](https://user-images.githubusercontent.com/95491130/181723063-e39378a2-a303-47cc-a614-9263c1cad5f8.png)
+
+chạy lệnh bash.
+
+![image](https://user-images.githubusercontent.com/95491130/181723196-37f9587e-b0b2-4f0a-90dd-b905b93afa93.png)
+
+6. thao tác với chuỗi: 
+
+#vi string.sh
+
+![image](https://user-images.githubusercontent.com/95491130/181723891-6dd24a86-c8e8-41b9-87d7-e59def14e308.png)
+
+chạy lenh bash
+
+![image](https://user-images.githubusercontent.com/95491130/181724000-558a1909-18a3-417e-81ca-9d2c0d517fdc.png)
+
+7. mảng
+
+- Mảng là một danh sách các mục, được khai báo bên trong dấu ngoặc đơn như sau:
+
+a=("di bien" "an uong" "di nui" "xem phim" "the thao")
+
+- Bạn có thể tham chiếu bất kỳ mục nào trong một mảng bằng dấu ngoặc vuông:
+
+a[0]
+a[1]
+
+-  Bạn có thể nhận được tổng số mục trong một mảng bằng cú pháp này:
+
+${#a[@]}
+
+8. sử dụng hàm
+
+- lap1: Bash không thể khai báo tham số tại thời điểm khai báo hàm. Nhưng chúng ta có thể sử dụng các tham số trong hàm bằng cách sử dụng biến khác. Tạo một tập tin có tên function.sh và thêm đoạn mã sau tính diện tích hình chữ nhật:
+
+#vi function.sh
+
+![image](https://user-images.githubusercontent.com/95491130/181726055-def1d6ce-c117-458b-8888-1aa112a3bcb7.png)
+
+chạy lệnh bash
+
+![image](https://user-images.githubusercontent.com/95491130/181726233-28b8a1ff-7846-4503-8a9f-1cf30eb12d7b.png)
+
 
 
 
