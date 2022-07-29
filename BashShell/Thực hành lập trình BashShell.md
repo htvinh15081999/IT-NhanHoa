@@ -1,3 +1,14 @@
+Mục lục:
+
+1. in ra màn hình
+2. cấu trúc điều kiện.
+3. vòng lặp trong bash shell
+4. cấu trúc cấu case.
+5. cấu trúc select: lựa chọn sở thích
+6. thao tác với chuỗi:
+7. mảng
+8. sử dụng hàm
+-----------------------------------------------------------------------------------
 1. in ra màn hình
 
 - lap1: sử dụng chú thích #
