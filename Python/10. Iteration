@@ -1,0 +1,30 @@
+1. khái niệm:   
+
+- iteration là 1 khái niệm chung cho việc lấy từng phần tử của 1 đối tượng nào đó., bất cứ khi nào sử dụng vòng lặp hay kỹ thuật nào đó để có giá trị 1 nhóm phần tử thì đó là itertion.
+
+2. Iterable object
+
+- Iterable object là một object có phương thức _iter_ trả về một iterator , hoặc là một object có phương thức _getitem_ cho phép lấy bất cứ phần tử nào của nó bằng indexing ví dụ như chuỗi , list , tuple .
+
+3.Iterator object
+
+- Iterator object là một đối tượng mà cho phép ta lấy từng giá trị một của nó . Có nghĩa là bạn không thể lấy bất kỳ giá trị nào như ta hay làm với list hay chuỗi .
+
+- Iterator không có khả năng tái sử dụng trừ một số iterator có phương thức hỗ trợ như file object sẽ có phương thức seek .
+
+- Iterator sử dụng hàm next để lấy từng giá trị một . Và sẽ có lỗi StopIteration khi sử dụng hàm next lên đối tượng đó trong khi nó hết giá trị đưa ra .
+
+- Các iterable object chưa phải iterator . Khi sử dụng hàm iter sẽ trả về một iterator . Đây cũng chính là cách các vòng lặp hoạt động .
+
+- Nói tóm lại iterator là một dạng của iterable nhưng khác ở chỗ không thể tái sử dụng .
+
+4. Một số hàm hỗ trợ cho iterable object trong Python
+
+- hàm tính tổng sum:
+
+            Cú pháp :
+            sum(iterable, start=0)
+           
+- Công dụng : trả về tổng các giá trị của iterable và iterable này chỉ chứa các giá trị là số . Còn start chính là giá trị ban đầu . Có nghĩa là sẽ cộng từ start lên . Mặc định start = 0 .
+
+- 
