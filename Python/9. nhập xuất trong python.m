@@ -1,8 +1,8 @@
 1. hàm xuất - print : Hàm print giúp xuất các nội dung mà người dùng muốn ra shell ( terminal , command prompt , powershell , ...)
 
-              cú pháp :
+          cú pháp :
 
-              print(*object, sep='', end='\n', file=sys.stdout, flush=False)
+          print(*object, sep='', end='\n', file=sys.stdout, flush=False)
 
 - Trong đó :
 
