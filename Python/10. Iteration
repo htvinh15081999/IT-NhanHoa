@@ -27,4 +27,4 @@
            
 - Công dụng : trả về tổng các giá trị của iterable và iterable này chỉ chứa các giá trị là số . Còn start chính là giá trị ban đầu . Có nghĩa là sẽ cộng từ start lên . Mặc định start = 0 .
 
-- 
+
