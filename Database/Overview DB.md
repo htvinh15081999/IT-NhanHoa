@@ -1,6 +1,24 @@
+# mục lục:
+
+1. khái niệm chung về database:
+2. Vai trò của database.
+3. phân loại database.
+4. ứng dụng của database:
+5. Thành phần chính:
+6. Hệ điều hành Database (DMBS)
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+
 # 1. khái niệm chung về database:
  
  - Database là từ được sử dụng phổ biến trong các lĩnh vực thuộc công nghệ thông tin, dữ liệu, lập trình và phần mềm… .Database là cơ sở dữ liệu, là một bộ sưu tập dữ liệu được tổ chức bày bản và thường được truy cập từ hệ thống máy tính hoặc tồn tại dưới dạng tập tin trong hệ quản trị cơ sở dữ liệu. Database còn có thể được lưu trữ trên thiết bị có chức năng ghi nhớ như: thẻ nhớ, đĩa cứng, CD…
+ 
+ ![image](https://user-images.githubusercontent.com/95491130/182982465-47c15448-b712-4b11-87d3-552bffb100ea.png)
+
  
  # 2. Vai trò của database.
  
@@ -53,7 +71,10 @@
  - Ngoài ra, Database còn cung cấp tính năng kiểm soát đồng thời, giúp bảo mật chặt chẽ hơn. Tạo môi trường đa người dùng với điều kiện kết nối an toàn. Nhiều người có thể truy cập đồng thời và truy xuất được những dữ liệu cần thiết
  
  # 5. Thành phần chính: 
- 
+
+![image](https://user-images.githubusercontent.com/95491130/182982447-598a41e8-d6e9-49c6-b3a9-f3d8708941b3.png)
+
+
  - Phần cứng: chính là các thiết bị vật lý mà người dùng có thể trực tiếp thao tác lên chúng như: các thiết bị input/output, máy tính, thiết bị lưu trữ,...
 
 - Phần mềm: bao gồm tất các các chương trình có chức năng quản lý và khai thác dữ liệu. Database cũng chính là một phần mềm kết hợp cùng các phần mềm khách như hệ điều hành, mạng lưới mạng đã tạo nên một hệ thống đồng nhất trong việc chia sẻ và sử dụng dữ liệu.
@@ -70,8 +91,42 @@
 
 - DMBS vận hành cung cấp cấp các tiện ích cơ bản như truy xuất dữ liệu, quản lý truy cập, phân tích và đọc/ghi dữ liệu.
 
+![image](https://user-images.githubusercontent.com/95491130/182982153-25752dac-cbf5-4055-828a-f073b67ce734.png)
 
+ # 6.1. Phần mềm DBMS phổ biến
 
+- Có hai loại hệ thống DMBS phổ biến là phần mềm thuộc sở hữu tư nhân và phần mềm có mã nguồn mở miễn phí:
+
+        Mã nguồn tư nhân: Oracle Database (Oracle), SQL Server (Microsoft). Microsoft Access (Microsoft).
+
+        Mã nguồn mở, miễn phí: MySQL, MariaDB, PostgreSQL
+        
+# 6.2 ưu điểm của DBMS:
+
+- Đồng nhất quy trình quản lý dữ liệu.
+
+- Tạo nên một quy trình xử lý hiệu quả, cân bằng nhu cầu của các ứng dụng khi sử dụng chung kho dữ liệu.
+
+- Giúp lưu trữ và truy xuất dữ liệu hiệu quả.
+
+- Hỗ trợ nhiều công nghệ mới cho việc khai thác dữ liệu.
+
+- Bảo mật và bảo dữ liệu một cách tối đa.
+
+- Phân quyền truy cập cho các dữ liệu mật.
+
+- Giảm thiểu thời gian phát triển ứng dụng.
+
+# 6.3 Khuyết điểm của DMBS
+
+- Không thể thực hiện các phép toán phức tạp.
+
+- Chi phí vận hành về phần cứng lẫn phần mềm còn cao.
+
+- Các dữ liệu thường được hợp thành một thể thống nhất, khi thao tác lỗi dễ làm sập hệ thống.
+
+- Cách thức vận hành của hệ thống còn phức tạp, cần có sự hướng dẫn mới có thể sử dụng.
+        
 
 
 
