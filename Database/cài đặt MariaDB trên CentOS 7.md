@@ -49,18 +49,28 @@
 # Bước 4: Cài MariaDB bằng lệnh
 
           yum install MariaDB-server MariaDB-client
+          
+![image](https://user-images.githubusercontent.com/95491130/183021236-76e7cf06-2020-467f-b6ef-ef9c34a25aca.png)
+
 
 # Bước 5: Khởi động MariaDB
 
-          service mysql start
+          systemctl start mariadb
+          systemctl enable mariadb
+          systemctl status mariadb
 
-# Bước 6: Đưa mysql vào danh sách các ứng dụng tự khởi động khi reboot server
+![image](https://user-images.githubusercontent.com/95491130/183021840-e7c313ec-46ea-4617-a763-750c885e2b32.png)
 
-          chkconfig --levels 150 mysql on
+# Bước 6: Mở port trên firewall.
 
-# Bước 7: Thiết lập mật khẩu root:
+
+
+
+# Bước 7: Cấu hình bảo mật MariaDB
 
           mysql_secure_installation
+          
+
 
 # Bước 8: Đăng nhập vào MariaDB Server với lệnh mysql -u root -p và nhập mật khẩu root vừa đổi
 
