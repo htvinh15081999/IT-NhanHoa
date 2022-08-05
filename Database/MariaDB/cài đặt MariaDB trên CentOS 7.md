@@ -1,5 +1,5 @@
              
-# . cài đặt MariaDB trên CentOS 7.
+# II. cài đặt MariaDB trên CentOS 7.
 
 # Bước 1: Cài MariaDB bằng lệnh
 
