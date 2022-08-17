@@ -1,0 +1,31 @@
+#  Truy cập vào Zimbra với tài khoản của Admin
+
+![image](https://user-images.githubusercontent.com/95491130/185080424-8db2c3fd-7cc9-47ba-b649-12a0b29e67c0.png)
+
+# trang chủ
+
+![image](https://user-images.githubusercontent.com/95491130/185080668-fa89ba7f-9886-4920-a2d0-30534d4423e1.png)
+
+# các chức năng 
+
+# giám sát
+
+![image](https://user-images.githubusercontent.com/95491130/185080869-fd9102fe-8be7-4f01-a271-def8deed72ef.png)
+
+# quản lý user
+
+![image](https://user-images.githubusercontent.com/95491130/185081010-85271546-37f1-4906-aa67-f8a1f356d003.png)
+
+# cấu hình
+
+![image](https://user-images.githubusercontent.com/95491130/185081078-642173d0-0d53-45b8-9b48-08f186082378.png)
+
+# tìm kiếm 
+
+![image](https://user-images.githubusercontent.com/95491130/185081165-f52d620d-a4c4-444e-aa0f-223af1aa72f2.png)
+
+#  Truy cập vào Zimbra với tài khoản cuser
+
+# trang chủ
+
+![image](https://user-images.githubusercontent.com/95491130/185083178-f4f743a6-df99-4487-a8b7-a7f1c1d6c5bf.png)
