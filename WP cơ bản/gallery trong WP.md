@@ -1,0 +1,3 @@
+# tạo gllery trong WP
+
+
